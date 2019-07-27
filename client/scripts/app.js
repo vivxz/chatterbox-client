@@ -17,6 +17,7 @@ var App = {
     Friends.toggleStatus();
     Rooms.add();
     Messages.submit();
+    MessagesView.filterSelect();
   },
 
   fetch: function (callback = () => { }) {
